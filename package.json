@@ -1,0 +1,19 @@
+{
+  "name": "senti-ml-model-water",
+  "version": "0.0.1",
+  "description": "Senti.Act Machine Learning Model for water",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senti-iot/senti-ml-model-water.git"
+  },
+  "author": "Senti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senti-iot/senti-ml-model-water/issues"
+  },
+  "homepage": "https://github.com/senti-iot/senti-ml-model-water#readme"
+}

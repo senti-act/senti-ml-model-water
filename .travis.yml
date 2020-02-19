@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- stable
+branches:
+  only:
+  - master
+deploy:
+  provider: npm
+  email: at@webhouse.dk
+  api_key:
+    secure: jKdYe08TCqFSc/IwYxZCl25gseTLx81dHlDIijoU7t7HbFiDnupFSgVuyHZt9LXo4fP2wrjBvFvzM6JMy8agyRqZHWNYgiY/bamqauxgT+NUZGHGBqxO5cdfBaD/A2Ussnt9ezTYcGv82GIEbOhPk5ePuhPl4U2xqEMMbzYyakSjy1FEmB3hxd/CknkGPKUystdiaajmQlLbaKcoas/CGQsikMgGfA/YZAINpMq2WTxEaLTBqwuYSoiBEpBPm7kmtSBINic1GPelr3XKkeoAiuIkAqP90DvrzIZZqW9muOUhIvto65KCiTgJ48t8Q7In3t1kjaN+6LbIyQpQdHFvttS5WgYJYKQHvRGJ9l7Z9Lfj+GXBK9qsBcLORJksLPudvwoJUFBqAo5xuUVyM2sgLHQ0dA9HGScDN5AOCWoo4ChAXFayzFjHjzds//yF1nJMeeEZ5iHOylKGDAnS46KOtnAfOfLmdNBAV9/AhyeyIuFL9PAW2f1WIS4DLg6mnGpKWYIQF94F8Rh7fjhOpYGAPFt0PKHwKpkQkRSbZgrAIEP/KjGamFEr3QoGbLb2c29MLqnHLSZj/rQ8ki3axCEvvG0PMNKcn+3AMtVNLcDwQu5gGfP5jvG33wQIe7U4lBts9azLChtusXdCINuuYyoeCMrWYgzWO/n/ijj2WnQSKZ0=
+  on:
+    repo: senti-iot/senti-ml-model-water
+notifications:
+  email:
+    recipients:
+    - cb@webhouse.dk
+    on_success: never
+    on_failure: always
+  slack:
+    secure: LEE9VlsZ6fc7jdv7gbLSrwLtOTOAEvyUUXiqxnNyV2/B/wBdWAF7AYcbSyQJXesD/eqGzFe5uT2RaaERAMN3GWMR0++0z4eDqSOb2B3OLfzQorgA663GWkepnbroSDXDzcNm+2JWsm7HsC/EBzvEQZYcAHQgd4AF1lLZpMdUwFXwt+gg9VKN6v3kc7HnJsi13CSZ5SH7lpL2wLoJBJO0/T8OjJRfMAdxxFLWjr9Rxd8uNRRva5g5I9UCVh/KiHrxCnugf3ysloVIf+hBa/FL54axDYcp8XaAwOzZuKor1/OTxPzG12gAuAgnZbQyYa3JvQUgNQKyFwkFesPC4ZfbdGi5WNiu7I6BJP8rir1kUlelRfwWM1iLDKCkTmP/ml8Ac7wdW45xTvj/PjeeSwJ/s6wpuiiDU/eAoahntL/U57kbjXdPIxNOsSzhdlO32+uwtwIUqQIbCocklvylclda9gmoxH+JQNSnZKt5kFjnCpja2sb/GRL7fHsO35mIblwT6LTu3DkVbMNXLVxlixmMcZu2tIPKshSYQH50gD7D+fymP4jopoxqIFFDrWIDlvm5Kbw4bOn8aha8KyE7y91Xet0U9cruowO1xGOboJDWDvF5B88+kK4weuI2ZfTCW28jotceLrF/qChm0yUElg84shOoGI3swrBFM3i0VpWDRJ4=
