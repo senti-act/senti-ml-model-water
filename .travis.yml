@@ -6,7 +6,7 @@ branches:
   - master
 deploy:
   edge: true
-	skip_cleanup: true
+  skip_cleanup: true
   provider: npm
   email: at@webhouse.dk
   api_key:
